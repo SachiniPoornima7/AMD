@@ -70,7 +70,7 @@ const Index = () => {
           <View className="items-center pt-16 pb-8">
             <View className="w-16 h-1 mb-6 bg-green-500 rounded-full" />
             <Text className="text-sm font-semibold tracking-wider text-green-400 uppercase">
-              Premium Cooking Experience
+              Premium Workout Experience
             </Text>
           </View>
 
@@ -126,10 +126,10 @@ const Index = () => {
             {/* Title and Branding */}
             <View className="items-center mb-8">
               <Text className="mb-2 text-5xl font-black tracking-tight text-center text-white">
-                Cook Book
+                Gym App
               </Text>
               <Text className="text-base font-medium tracking-widest text-green-400">
-                CHEF'S COLLECTION
+                Trainers'S COLLECTION
               </Text>
 
               {/* Rating Section */}
@@ -142,14 +142,14 @@ const Index = () => {
                   ))}
                 </View>
                 <Text className="ml-2 text-sm text-white/70">
-                  4.9 • 1K+ recipes
+                  4.9 • 1K+ Workouts
                 </Text>
               </View>
             </View>
 
             {/* Description */}
             <Text className="max-w-xs mb-12 text-lg font-light leading-7 text-center text-white/70">
-              Master culinary arts with chef-curated recipes and step-by-step
+              Master trainers arts with personalized workout plans and step-by-step
               guides
             </Text>
           </View>
@@ -202,7 +202,7 @@ const Index = () => {
                 </View>
               </View>
               <Text className="text-sm text-white/50">
-                Join 2.5M+ passionate home chefs
+                Join 2.5M+ passionate users
               </Text>
             </View>
 
