@@ -3,7 +3,7 @@ import { Tabs } from "expo-router";
 
 const tabs = [
   { label: "Home", name: "home", icon: "home-filled" },
-  { label: "Recipes", name: "recipes", icon: "restaurant-menu" },
+  { label: "Workouts", name: "workouts", icon: "workout-menu" },
   { label: "Profile", name: "profile", icon: "person" },
   { label: "Settings", name: "settings", icon: "settings" },
 ] as const;
@@ -30,9 +30,9 @@ export default function DashboardLayout() {
           }}
           listeners={({ navigation }) => ({
             tabPress: (e) => {
-              if (name === "recipes") {
+              if (name === "workouts") {
                 e.preventDefault();
-                navigation.navigate("recipes/index"); // ✅ always go to list
+                navigation.navigate("workouts/index"); // ✅ always go to list
               }
             },
           })}

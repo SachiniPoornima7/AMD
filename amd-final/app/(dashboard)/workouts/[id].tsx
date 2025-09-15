@@ -39,7 +39,7 @@ export default function RecipeDetails() {
   if (!recipe)
     return (
       <View className="flex-1 items-center justify-center bg-[#0A0F1C] p-6">
-        <Text className="text-lg text-gray-300">❌ Recipe not found</Text>
+        <Text className="text-lg text-gray-300">❌ workouts not found</Text>
       </View>
     );
 
@@ -67,7 +67,7 @@ export default function RecipeDetails() {
         >
           <Ionicons name="arrow-back" size={22} color="#fff" />
         </TouchableOpacity>
-        <Text className="text-xl font-bold text-white">Recipe Details</Text>
+        <Text className="text-xl font-bold text-white">Workout Details</Text>
       </View>
 
       {/* ---------- CONTENT ---------- */}

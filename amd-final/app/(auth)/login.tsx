@@ -1,21 +1,21 @@
+import { login } from "@/services/authService";
+import { useRouter } from "expo-router";
+import React, { useEffect, useRef, useState } from "react";
 import {
-  View,
+  ActivityIndicator,
+  Alert,
+  Animated,
+  Dimensions,
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+  ScrollView,
+  StatusBar,
   Text,
   TextInput,
   TouchableOpacity,
-  Pressable,
-  Alert,
-  ActivityIndicator,
-  StatusBar,
-  Dimensions,
-  Animated,
-  KeyboardAvoidingView,
-  Platform,
-  ScrollView,
+  View,
 } from "react-native";
-import React, { useState, useRef, useEffect } from "react";
-import { useRouter } from "expo-router";
-import { login } from "@/services/authService";
 
 const { width, height } = Dimensions.get("window");
 
@@ -278,12 +278,7 @@ const Login = () => {
 
 export default Login;
 
-
-
-
 // // NEW
-
-
 
 // import {
 //   View,
